@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="tab.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>top 10 tenistas</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+          <tr>
+            <th colspan="4">OS 10 MELHORES TENISTAS</th>
+          </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <th>Nome</th>
+                <th>idade</th>
+                <th>nacionalidade</th>
+                <th>pontos</th>
+              </tr>
+          <tr>
+            <td>Roger Federer</td>
+            <td>45</td>
+            <td>suiça</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Rod Laver</td>
+            <td>35</td>
+            <td>australia</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Steffi Graf</td>
+            <td>25</td>
+            <td>alemanha</td>
+            <td>3</td>
+          </tr>
+           <tr>
+            <td>Martina Navratilova</td>
+            <td>35</td>
+            <td>estados unidos</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <td>Pete Sampras</td>
+            <td>42</td>
+            <td>estados unidos</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Rafael Nadal</td>
+            <td>40</td>
+            <td>espanha</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>Björn Borg</td>
+            <td>28</td>
+            <td>suecia</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>Margaret Court</td>
+            <td>22</td>
+            <td>australia</td>
+            <td>8</td>
+          </tr>
+          <tr>
+            <td>Chris Evert</td>
+            <td>19</td>
+            <td>estados unidos</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Billie Jean King</td>
+            <td>27</td>
+            <td>estados unidos</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="pe" colspan="4">data: 22/02/2024</td>
+            </tr>
+        </tfoot>
+      </table>
+</body>
+</html>
+
+
+
+table{
+    width: 100%;
+}
+.pe{
+    text-align: center;
+}
